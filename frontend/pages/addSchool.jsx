@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form';
-import api from '@/utils/api';
+import api from '../utils/api';
 import { useState } from 'react';
 
 export default function AddSchool(){
