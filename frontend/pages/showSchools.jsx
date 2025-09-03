@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import api from '@/utils/api';
-import SchoolCard from '@/components/SchoolCard';
+import api from '../utils/api';
+import SchoolCard from '../components/SchoolCard';
 
 export default function ShowSchools(){
   const [schools, setSchools] = useState([]);
